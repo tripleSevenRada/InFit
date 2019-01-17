@@ -1,0 +1,8 @@
+<strings>
+    <string id="AppName">IN FIT</string>
+
+    <string id="start_prompt">Press start/menu</string>
+
+    <string id="menu_label_1">Item 1</string>
+    <string id="menu_label_2">Item 2</string>
+</strings>
