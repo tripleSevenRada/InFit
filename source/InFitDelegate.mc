@@ -3,8 +3,8 @@ using Toybox.Application as App;
 
 class InFitDelegate extends WatchUi.BehaviorDelegate {
 
-	var app;
-	
+    var app;
+    
     function initialize() {
         BehaviorDelegate.initialize();
         app = App.getApp();
@@ -17,8 +17,8 @@ class InFitDelegate extends WatchUi.BehaviorDelegate {
     }
     
     function onSelect() {
-    	//WatchUi.pushView(new Rez.Menus.MainMenu(), new InFitMenuDelegate(), WatchUi.SLIDE_UP);
-    	app.webRequestForCourses();
-    	return true;
+        //WatchUi.pushView(new Rez.Menus.MainMenu(), new InFitMenuDelegate(), WatchUi.SLIDE_UP);
+        app.webRequestForCourses();
+        return true;
     }
 }

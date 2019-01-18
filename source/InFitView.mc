@@ -3,11 +3,11 @@ using Toybox.Application as App;
 
 class InFitView extends WatchUi.View {
 
-	var app;
-	var labelContent;
+    var app;
+    var labelContent;
     var statusContent;
     var labelDrawable;
-	var statusDrawable;
+    var statusDrawable;
 
     function initialize() {
         View.initialize();
