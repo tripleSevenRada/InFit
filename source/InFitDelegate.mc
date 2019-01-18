@@ -21,5 +21,4 @@ class InFitDelegate extends WatchUi.BehaviorDelegate {
     	app.webRequestForCourses();
     	return true;
     }
-
 }

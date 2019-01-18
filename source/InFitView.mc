@@ -1,14 +1,24 @@
 using Toybox.WatchUi;
+using Toybox.Application as App;
 
 class InFitView extends WatchUi.View {
 
+	var app;
+	var labelContent;
+    var statusContent;
+    var labelDrawable;
+	var statusDrawable;
+
     function initialize() {
         View.initialize();
+        app = App.getApp();
     }
 
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.MainLayout(dc));
+        labelDrawable = findDrawableById("label");
+        statusDrawable = findDrawableById("status");
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -19,6 +29,10 @@ class InFitView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc) {
+        labelContent = app.getLabelViewContent();
+        statusContent = app.getStatusViewContent();
+        labelDrawable.setText(labelContent);
+        statusDrawable.setText(statusContent);
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
