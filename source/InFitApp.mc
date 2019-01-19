@@ -1,15 +1,16 @@
 using Toybox.Application;
-using Toybox.WatchUi;
 using Toybox.WatchUi as Ui;
 using Toybox.Communications as Comm;
 
 class InFitApp extends Application.AppBase {
 
-    var label;
-    var status;
-    var bluetoothTimer;
-    var blockWebAsyncCall;
-    var courses;
+    hidden var label;
+    hidden var status;
+    hidden var bluetoothTimer;
+    hidden var blockWebAsyncCall;
+    hidden var courses;
+    hidden var progressBar;
+    hidden var progressBarRunning = false;
 
     function getLabelViewContent(){return label;}
     function getStatusViewContent(){return status;}
@@ -38,16 +39,34 @@ class InFitApp extends Application.AppBase {
         return [ new InFitView(), new InFitDelegate() ];
     }
 
+    function onProgressBarBackPress(){progressBarRunning = false;}
+    function ridProgressBar(){
+         progressBarRunning = false;
+         WatchUi.popView( WatchUi.SLIDE_UP );
+    }
+
     function webRequestForCourses(){
         if (! System.getDeviceSettings().phoneConnected) {
             bluetoothTimer.stop();
             label = "";
             status = Rez.Strings.waiting_for_bt;
             Ui.requestUpdate();
-            System.println("webRequestForCourses waiting for BT");
-            bluetoothTimer.start(method(:webRequestForCourses), 1000, false);
+            if(!progressBarRunning){
+                progressBar = new WatchUi.ProgressBar(
+                    Ui.loadResource(Rez.Strings.waiting_for_bt),
+                    null
+                );
+                Ui.pushView(
+                    progressBar,
+                    new MyProgressDelegate(),
+                    Ui.SLIDE_DOWN
+                );
+                progressBarRunning = true;
+            }
+            bluetoothTimer.start(method(:webRequestForCourses), 2600, false);
             return;
         }
+        if(progressBarRunning){ridProgressBar();}
         if (blockWebAsyncCall){
             System.println("webRequestForCourses SHORT CIRCUITED by blockWebAsyncCall");
             return;
