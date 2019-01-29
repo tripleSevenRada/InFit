@@ -68,11 +68,11 @@
 <entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="20" lineNum="78" pc="268436583" symbol="webRequestForCourses"/>
 <entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="20" lineNum="79" pc="268436593" symbol="webRequestForCourses"/>
 <entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="20" lineNum="80" pc="268436623" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="83" pc="268436659" symbol="webRequestForCoursesFire"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="84" pc="268436663" symbol="webRequestForCoursesFire"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="85" pc="268436663" symbol="webRequestForCoursesFire"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="95" pc="268436791" symbol="webRequestForCoursesFire"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="96" pc="268436801" symbol="webRequestForCoursesFire"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="83" pc="268436659" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="84" pc="268436663" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="85" pc="268436663" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="95" pc="268436791" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="96" pc="268436801" symbol="webRequestForCoursesTriger"/>
 <entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="100" pc="268436826" symbol="onReceiveCourses"/>
 <entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="101" pc="268436830" symbol="onReceiveCourses"/>
 <entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="102" pc="268436840" symbol="onReceiveCourses"/>
@@ -151,6 +151,7 @@
 <entry field="true" id="36" symbol="courses"/>
 <entry id="18" object="true" symbol="MainMenu"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="44" method="true" symbol="webRequestForCoursesTriger"/>
 <entry field="true" id="37" symbol="progressBar"/>
 <entry field="true" id="26" symbol="start_prompt"/>
 <entry id="46" method="true" symbol="onConnectionError"/>
@@ -197,7 +198,6 @@
 <entry id="39" method="true" symbol="getLabelViewContent"/>
 <entry id="12" object="true" symbol="InFitDelegate"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry id="44" method="true" symbol="webRequestForCoursesFire"/>
 <entry id="11" object="true" symbol="InFitApp"/>
 <entry id="16" module="true" symbol="Layouts"/>
 <entry field="true" id="28" symbol="lorem_ipsum"/>
@@ -283,7 +283,7 @@
 <functionEntry accessMode="public" name="webRequestForCourses" parent="InFitApp">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="webRequestForCoursesFire" parent="InFitApp">
+<functionEntry accessMode="public" name="webRequestForCoursesTriger" parent="InFitApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onReceiveCourses" parent="InFitApp">

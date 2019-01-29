@@ -77,10 +77,10 @@ class InFitApp extends Application.AppBase {
         Ui.requestUpdate();
         blockWebAsyncCall = true;
         var myTimer = new Timer.Timer();
-        myTimer.start(method(:webRequestForCoursesFire), 800, false);
+        myTimer.start(method(:webRequestForCoursesTriger), 800, false);
     }
     
-    function webRequestForCoursesFire(){
+    function webRequestForCoursesTriger(){
             try{
             Comm.makeWebRequest(
             "http://localhost:22222/dir.json",
