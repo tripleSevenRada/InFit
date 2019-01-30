@@ -62,9 +62,9 @@ class InFitApp extends Application.AppBase {
     }
     
     function webRequestForCoursesFire(){
-            try{
+        try{
             Comm.makeWebRequest(
-            "http://localhost:22222/dir.json",
+            "http://localhost:22333/outfit-dir.json",
             null,
             {       :method => Comm.HTTP_REQUEST_METHOD_GET,
                     :headers => {"Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON},
@@ -85,6 +85,14 @@ class InFitApp extends Application.AppBase {
             System.println("Bluetooth disconnected");
             status = Rez.Strings.bt_disconnected;
             Ui.requestUpdate();
+            return;
+        }
+        if(responseCode == 1001){
+            System.println("responseCode == 1001 - https device requirements");
+            //TODO
+            //TODO
+            label = responseCode.toString();
+            onConnectionError();
             return;
         }
         if(responseCode != 200){
