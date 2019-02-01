@@ -42,5 +42,4 @@ class InFitView extends WatchUi.View {
     // memory.
     function onHide() {
     }
-
 }

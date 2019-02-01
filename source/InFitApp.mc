@@ -6,8 +6,8 @@ class InFitApp extends Application.AppBase {
 
     hidden var label;
     hidden var status;
-    hidden var bluetoothTimer;
-    hidden var blockWebAsyncCall;
+    hidden var timer;
+    hidden var blockWebRequestsForCourses;
     hidden var courses;
     hidden var progressBar;
     hidden var progressBarRunning = false;
@@ -19,8 +19,8 @@ class InFitApp extends Application.AppBase {
         AppBase.initialize();
         label = "";
         status = "";
-        bluetoothTimer = new Timer.Timer();
-        blockWebAsyncCall = false;
+        timer = new Timer.Timer();
+        blockWebRequestsForCourses = false;
         courses = null;
     }
 
@@ -40,44 +40,44 @@ class InFitApp extends Application.AppBase {
     }
 
     function onProgressBarBackPress(){progressBarRunning = false;}
+    function showProgressBar(title){
+        if(progressBarRunning == true){return;}
+        progressBar = new WatchUi.ProgressBar(
+            title,
+            null
+            );
+            Ui.pushView(
+                progressBar,
+                new MyProgressDelegate(),
+                Ui.SLIDE_IMMEDIATE
+            );
+            progressBarRunning = true;
+    }
     function ridProgressBar(){
          progressBarRunning = false;
-         WatchUi.popView( WatchUi.SLIDE_UP );
+         WatchUi.popView( WatchUi.SLIDE_IMMEDIATE );
     }
 
     function webRequestForCourses(){
         if (! System.getDeviceSettings().phoneConnected) {
-            bluetoothTimer.stop();
             label = "";
             status = Rez.Strings.waiting_for_bt;
             Ui.requestUpdate();
-            if(!progressBarRunning){
-                progressBar = new WatchUi.ProgressBar(
-                    Ui.loadResource(Rez.Strings.waiting_for_bt),
-                    null
-                );
-                Ui.pushView(
-                    progressBar,
-                    new MyProgressDelegate(),
-                    Ui.SLIDE_DOWN
-                );
-                progressBarRunning = true;
-            }
-            bluetoothTimer.start(method(:webRequestForCourses), 2600, false);
+            if(!progressBarRunning){ showProgressBar(Ui.loadResource(Rez.Strings.waiting_for_bt)); }
+            timer.start(method(:webRequestForCourses), 2600, false);
             return;
         }
         if(progressBarRunning){ridProgressBar();}
-        if (blockWebAsyncCall){
-            System.println("webRequestForCourses SHORT CIRCUITED by blockWebAsyncCall");
+        if (blockWebRequestsForCourses){
+            System.println("webRequestForCourses SHORT CIRCUITED by blockWebRequestsForCourses");
             return;
         }
         System.println("webRequestForCourses");
         label = "";
         status = Rez.Strings.loading_courses;
         Ui.requestUpdate();
-        blockWebAsyncCall = true;
-        var myTimer = new Timer.Timer();
-        myTimer.start(method(:webRequestForCoursesTriger), 800, false);
+        blockWebRequestsForCourses = true;
+        timer.start(method(:webRequestForCoursesTriger), 1000, false);
     }
     
     function webRequestForCoursesTriger(){
@@ -92,24 +92,21 @@ class InFitApp extends Application.AppBase {
             method(:onReceiveCourses)
             );
         }catch(ex){
-            blockWebAsyncCall = false;
+            blockWebRequestsForCourses = false;
             onConnectionError();
         }
     }
     
     function onReceiveCourses(responseCode, data){
-        blockWebAsyncCall = false;
+        blockWebRequestsForCourses = false;
         System.println("onReceiveCourses responseCode: " + responseCode);
         if (responseCode == Comm.BLE_CONNECTION_UNAVAILABLE) {
-            System.println("Bluetooth disconnected");
-            status = Rez.Strings.bt_disconnected;
-            Ui.requestUpdate();
+            onBLEConnectionError();
             return;
         }
-        if(responseCode == 1001){
-            System.println("responseCode == 1001 - https device requirements");
-            //TODO
-            //TODO
+        if(responseCode == -1001){
+            System.println("responseCode == -1001 - https device requirements");
+            //TODO https device requirements on a real device, maybe ask to switch off
             label = responseCode.toString();
             onConnectionError();
             return;
@@ -147,13 +144,81 @@ class InFitApp extends Application.AppBase {
         }
         
         System.println(courses.toString());
-        status = Rez.Strings.lorem_ipsum;
+        status = Rez.Strings.start_prompt;
         Ui.requestUpdate();
-        
+        Ui.pushView( new InFitMenu(), new InFitMenuDelegate(), Ui.SLIDE_IMMEDIATE );
+    }
+    
+    function getCourses(){ return courses; }
+    
+    var symbToInt = { :ITEM_0=>0, :ITEM_1=>1, :ITEM_2=>2, :ITEM_3=>3, :ITEM_4=>4, :ITEM_5=>5, :ITEM_6=>6 };
+    var fullUrl = null;
+
+    function onItemChosen(item){
+        System.println("onItemChosen: " + symbToInt[item]);
+        status = Rez.Strings.downloading;
+        Ui.requestUpdate();
+        if(!progressBarRunning){ showProgressBar(Ui.loadResource(Rez.Strings.downloading)); }
+        blockWebRequestsForCourses = true;
+        var courseUrl = courses[symbToInt[item]]["url"];
+        fullUrl = "http://localhost:22333/outfit-data" + courseUrl;
+        timer.start(method(:webRequestForCourseDownload), 1000, false);
+    }
+    
+    function webRequestForCourseDownload(){
+        if(fullUrl != null){
+            System.println("request url " + fullUrl);
+            try{
+                Comm.makeWebRequest(
+                fullUrl,
+                null,
+                {       :method => Comm.HTTP_REQUEST_METHOD_GET,
+                        :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_FIT
+                },
+                method(:onDownloadFinished)
+                );
+            }catch(ex){
+                onConnectionError();
+            }
+        }
+    }
+    
+    function onDownloadFinished(responseCode, data){
+    	ridProgressBar();
+        if (responseCode == Comm.BLE_CONNECTION_UNAVAILABLE) {
+            onBLEConnectionError();
+            return;
+        }
+        else if (responseCode != 200) {
+            label = responseCode.toString();
+            onConnectionError();
+            return;
+        }
+        else if (data == null) {
+            System.println("data == null");
+            onConnectionError();
+            return;
+        }
+        else {
+            System.println("data " + data.toString());
+            status = Rez.Strings.downloaded;
+            Ui.requestUpdate();
+            // search for the course in persistent content and make use of it
+            
+            
+            
+            
+            
+        }
     }
     
     function onConnectionError(){
         status = Rez.Strings.connection_error;
+        Ui.requestUpdate();
+    }
+    function onBLEConnectionError(){
+        System.println("Bluetooth disconnected");
+        status = Rez.Strings.bt_disconnected;
         Ui.requestUpdate();
     }
 }

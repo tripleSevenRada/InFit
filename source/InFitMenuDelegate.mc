@@ -1,5 +1,6 @@
 using Toybox.WatchUi;
 using Toybox.System;
+using Toybox.Application as App;
 
 class InFitMenuDelegate extends WatchUi.MenuInputDelegate {
 
@@ -8,11 +9,8 @@ class InFitMenuDelegate extends WatchUi.MenuInputDelegate {
     }
 
     function onMenuItem(item) {
-        if (item == :item_1) {
-            System.println("item 1");
-        } else if (item == :item_2) {
-            System.println("item 2");
-        }
+        WatchUi.popView( WatchUi.SLIDE_IMMEDIATE );
+        var app = App.getApp();
+        app.onItemChosen(item);
     }
-
 }
