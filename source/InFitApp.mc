@@ -1,6 +1,7 @@
 using Toybox.Application;
 using Toybox.WatchUi as Ui;
 using Toybox.Communications as Comm;
+using Toybox.PersistedContent as Pc;
 
 class InFitApp extends Application.AppBase {
 
@@ -42,6 +43,7 @@ class InFitApp extends Application.AppBase {
     function onProgressBarBackPress(){progressBarRunning = false;}
     function showProgressBar(title){
         if(progressBarRunning == true){return;}
+        progressBarRunning = true;
         progressBar = new WatchUi.ProgressBar(
             title,
             null
@@ -51,11 +53,11 @@ class InFitApp extends Application.AppBase {
                 new MyProgressDelegate(),
                 Ui.SLIDE_IMMEDIATE
             );
-            progressBarRunning = true;
     }
     function ridProgressBar(){
-         progressBarRunning = false;
-         WatchUi.popView( WatchUi.SLIDE_IMMEDIATE );
+        if(progressBarRunning == false){return;}
+        progressBarRunning = false;
+        WatchUi.popView( WatchUi.SLIDE_IMMEDIATE );
     }
 
     function webRequestForCourses(){
@@ -63,11 +65,11 @@ class InFitApp extends Application.AppBase {
             label = "";
             status = Rez.Strings.waiting_for_bt;
             Ui.requestUpdate();
-            if(!progressBarRunning){ showProgressBar(Ui.loadResource(Rez.Strings.waiting_for_bt)); }
-            timer.start(method(:webRequestForCourses), 2600, false);
+            showProgressBar(Ui.loadResource(Rez.Strings.waiting_for_bt));
+            timer.start(method(:webRequestForCourses), 2000, false);
             return;
         }
-        if(progressBarRunning){ridProgressBar();}
+        ridProgressBar();
         if (blockWebRequestsForCourses){
             System.println("webRequestForCourses SHORT CIRCUITED by blockWebRequestsForCourses");
             return;
@@ -153,14 +155,16 @@ class InFitApp extends Application.AppBase {
     
     var symbToInt = { :ITEM_0=>0, :ITEM_1=>1, :ITEM_2=>2, :ITEM_3=>3, :ITEM_4=>4, :ITEM_5=>5, :ITEM_6=>6 };
     var fullUrl = null;
+    var courseName = null;
 
     function onItemChosen(item){
+        blockWebRequestsForCourses = true;
         System.println("onItemChosen: " + symbToInt[item]);
         status = Rez.Strings.downloading;
         Ui.requestUpdate();
-        if(!progressBarRunning){ showProgressBar(Ui.loadResource(Rez.Strings.downloading)); }
-        blockWebRequestsForCourses = true;
+        showProgressBar(Ui.loadResource(Rez.Strings.downloading));
         var courseUrl = courses[symbToInt[item]]["url"];
+        courseName = courses[symbToInt[item]]["name"];
         fullUrl = "http://localhost:22333/outfit-data" + courseUrl;
         timer.start(method(:webRequestForCourseDownload), 1000, false);
     }
@@ -179,6 +183,7 @@ class InFitApp extends Application.AppBase {
                 );
             }catch(ex){
                 onConnectionError();
+                return;
             }
         }
     }
@@ -200,16 +205,46 @@ class InFitApp extends Application.AppBase {
             return;
         }
         else {
-            System.println("data " + data.toString());
+            if(courseName == null) {
+                // should never happen
+                onGenericError();
+                return;
+            }
+            // search for the course in persistent content and make use of it
             status = Rez.Strings.downloaded;
             Ui.requestUpdate();
-            // search for the course in persistent content and make use of it
+            var iteratorCourses = Pc.getCourses(); // Get the Iterator
+            while(true){
+                var courseNow = iteratorCourses.next();
+                if(courseNow == null){
+                    onPersistedContentError();
+                    break;
+                } else {
+                    System.println("course: " + courseNow.getName());
+                }
+            }
+            
+            
+            
+            
+            
+            blockWebRequestsForCourses = false;
+            
             
             
             
             
             
         }
+    }
+    function onGenericError(){
+        status = Rez.Strings.error;
+        Ui.requestUpdate();
+    }
+    
+    function onPersistedContentError(){
+        status = Rez.Strings.persisted_content_error;
+        Ui.requestUpdate();
     }
     
     function onConnectionError(){

@@ -13,7 +13,7 @@ class InFitMenu extends Ui.Menu{
         Menu.setTitle(Rez.Strings.menu_label);
         for( var i = 0; i < courses.size(); i++ ) {
             if(intToSymb[i] != null){
-                Menu.addItem(courses[i]["title"], intToSymb[i]);
+                Menu.addItem(courses[i]["name"], intToSymb[i]);
             }
         }
     }

@@ -1,10 +1,12 @@
 <strings>
     <string id="app_name">IN FIT</string>
     <string id="start_prompt">Press start/menu</string>
-    <string id="loading_courses">Loading courses</string>
+    <string id="loading_courses">Fetching courses</string>
     <string id="waiting_for_bt">Waiting for BT</string>
     <string id="bt_disconnected">BT disconnected</string>
     <string id="connection_error">Connection error</string>
+    <string id="persisted_content_error">Storage error</string>
+    <string id="error">Error</string>
     <string id="menu_label">Select!</string>
     <string id="downloading">Downloading</string>
     <string id="downloaded">Downloaded</string>
