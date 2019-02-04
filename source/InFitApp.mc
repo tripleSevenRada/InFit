@@ -5,6 +5,8 @@ using Toybox.PersistedContent as Pc;
 
 class InFitApp extends Application.AppBase {
 
+    // https://drive.google.com/open?id=1SZp8NZe27bqRasrfkHgtXxNbRH34V7E0
+
     hidden var label;
     hidden var status;
     hidden var timer;
