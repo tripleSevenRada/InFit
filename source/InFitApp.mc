@@ -223,22 +223,30 @@ class InFitApp extends Application.AppBase {
                     break;
                 } else {
                     System.println("course: " + courseNow.getName());
+                    if(courseNow.getName() == courseName){
+                        System.println("Attempt to start course: " + courseNow.getName());
+                        courseToStart = courseNow;
+                        timer.start(method(:startCourse), 1000, false);
+                        break;
+                    }
                 }
             }
-            
-            
-            
-            
-            
-            blockWebRequestsForCourses = false;
-            
-            
-            
-            
-            
-            
         }
     }
+
+    var courseToStart = null;
+    function startCourse(){
+        blockWebRequestsForCourses = false;
+        status = Rez.Strings.start_prompt;
+        Ui.requestUpdate;
+        if (courseToStart == null) return;
+        // thank you, Gimporter!
+        // FIXME: Garmin
+        // I can't do System.exitTo(course.toIntent())
+        // It causes the Fenix5 to be in a strange state
+        exitInto(courseToStart);
+    }
+    
     function onGenericError(){
         status = Rez.Strings.error;
         Ui.requestUpdate();
