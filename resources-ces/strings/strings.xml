@@ -1,0 +1,13 @@
+<strings>
+    <string id="app_name">Locus-IN FIT</string>
+    <string id="start_prompt">Stiskni start/menu</string>
+    <string id="loading_courses">Načítám trasy</string>
+    <string id="waiting_for_bt">Čeká se na BT</string>
+    <string id="bt_disconnected">BT bez spojení</string>
+    <string id="connection_error">Chyba spojení</string>
+    <string id="persisted_content_error">Chyba úložiště</string>
+    <string id="error">Chyba</string>
+    <string id="menu_label">Trasy:</string>
+    <string id="downloading">Stahuje se</string>
+    <string id="downloaded">Staženo</string>
+</strings>

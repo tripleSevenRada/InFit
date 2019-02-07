@@ -212,9 +212,9 @@ class InFitApp extends Application.AppBase {
                 onGenericError();
                 return;
             }
-            // search for the course in persistent content and make use of it
             status = Rez.Strings.downloaded;
             Ui.requestUpdate();
+            // search for the course in persistent content and make use of it
             var iteratorCourses = Pc.getCourses(); // Get the Iterator
             while(true){
                 var courseNow = iteratorCourses.next();
@@ -222,11 +222,12 @@ class InFitApp extends Application.AppBase {
                     onPersistedContentError();
                     break;
                 } else {
-                    System.println("course: " + courseNow.getName());
-                    if(courseNow.getName() == courseName){
+                    System.println("courseNow: " + courseNow.getName());
+                    System.println("courseExpected: " + courseName);
+                    if(courseNow.getName().equals(courseName)){
                         System.println("Attempt to start course: " + courseNow.getName());
                         courseToStart = courseNow;
-                        timer.start(method(:startCourse), 1000, false);
+                        timer.start(method(:startCourse), 800, false);
                         break;
                     }
                 }
@@ -239,14 +240,13 @@ class InFitApp extends Application.AppBase {
         blockWebRequestsForCourses = false;
         status = Rez.Strings.start_prompt;
         Ui.requestUpdate;
-        if (courseToStart == null) return;
-        // thank you, Gimporter!
-        // FIXME: Garmin
-        // I can't do System.exitTo(course.toIntent())
-        // It causes the Fenix5 to be in a strange state
-        exitInto(courseToStart);
+        if (courseToStart == null) {
+            System.println("courseToStart == null");
+            return;
+        }
+        System.exitTo(courseToStart.toIntent());
     }
-    
+
     function onGenericError(){
         status = Rez.Strings.error;
         Ui.requestUpdate();
