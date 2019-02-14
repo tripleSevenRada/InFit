@@ -1,0 +1,4 @@
+<layout id="MainLayout">
+	<label id="label" x="center" y="60" text="@Strings.app_name" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="status" x="center" y="center" text="@Strings.start_prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+</layout>

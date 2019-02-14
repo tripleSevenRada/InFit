@@ -8,6 +8,7 @@ class InFitApp extends Application.AppBase {
     // https://drive.google.com/open?id=1SZp8NZe27bqRasrfkHgtXxNbRH34V7E0
 
     hidden var label;
+    hidden var labelTextColor = Graphics.COLOR_BLUE;
     hidden var status;
     hidden var timer;
     hidden var blockWebRequestsForCourses;
@@ -15,6 +16,7 @@ class InFitApp extends Application.AppBase {
     hidden var progressBar;
     hidden var progressBarRunning = false;
 
+    function getLabelTextColor(){return labelTextColor;}
     function getLabelViewContent(){return label;}
     function getStatusViewContent(){return status;}
     
@@ -63,6 +65,7 @@ class InFitApp extends Application.AppBase {
     }
 
     function webRequestForCourses(){
+        labelTextColor = Graphics.COLOR_WHITE;
         if (! System.getDeviceSettings().phoneConnected) {
             label = "";
             status = Rez.Strings.waiting_for_bt;
@@ -214,7 +217,7 @@ class InFitApp extends Application.AppBase {
             }
             status = Rez.Strings.downloaded;
             Ui.requestUpdate();
-            // search for the course in persistent content and make use of it
+            // search for the course in persisted content and make use of it
             var iteratorCourses = Pc.getCourses(); // Get the Iterator
             while(true){
                 var courseNow = iteratorCourses.next();

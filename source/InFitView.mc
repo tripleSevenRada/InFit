@@ -5,6 +5,7 @@ class InFitView extends WatchUi.View {
 
     var app;
     var labelContent;
+    var labelTextColor;
     var statusContent;
     var labelDrawable;
     var statusDrawable;
@@ -30,8 +31,10 @@ class InFitView extends WatchUi.View {
     // Update the view
     function onUpdate(dc) {
         labelContent = app.getLabelViewContent();
+        labelTextColor = app.getLabelTextColor();
         statusContent = app.getStatusViewContent();
         labelDrawable.setText(labelContent);
+        labelDrawable.setColor(labelTextColor);
         statusDrawable.setText(statusContent);
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

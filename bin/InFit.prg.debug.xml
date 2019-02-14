@@ -1,241 +1,246 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="3" lineNum="12" pc="268435456" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="3" lineNum="13" pc="268435460" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="3" lineNum="14" pc="268435478" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="18" pc="268435502" symbol="onLayout"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="19" pc="268435506" symbol="onLayout"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="20" pc="268435543" symbol="onLayout"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="21" pc="268435567" symbol="onLayout"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="5" lineNum="27" pc="268435592" symbol="onShow"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="31" pc="268435597" symbol="onUpdate"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="32" pc="268435601" symbol="onUpdate"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="33" pc="268435626" symbol="onUpdate"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="34" pc="268435651" symbol="onUpdate"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="35" pc="268435677" symbol="onUpdate"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="37" pc="268435703" symbol="onUpdate"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="7" lineNum="43" pc="268435724" symbol="onHide"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="9" pc="268435729" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="10" pc="268435733" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="11" pc="268435751" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="12" pc="268435768" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="13" pc="268435781" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="14" pc="268435819" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="15" pc="268435843" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="16" pc="268435859" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="11" lineNum="8" pc="268435916" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="11" lineNum="9" pc="268435920" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="11" lineNum="10" pc="268435938" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="12" lineNum="13" pc="268435962" symbol="onBack"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="12" lineNum="14" pc="268435966" symbol="onBack"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="12" lineNum="15" pc="268435984" symbol="onBack"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="14" lineNum="18" pc="268435988" symbol="getLabelViewContent"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="14" lineNum="18" pc="268435992" symbol="getLabelViewContent"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="15" lineNum="19" pc="268436002" symbol="getStatusViewContent"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="15" lineNum="19" pc="268436006" symbol="getStatusViewContent"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="21" pc="268436016" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="22" pc="268436020" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="23" pc="268436038" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="24" pc="268436051" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="25" pc="268436064" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="26" pc="268436100" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="27" pc="268436110" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="31" pc="268436120" symbol="onStart"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="32" pc="268436124" symbol="onStart"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="33" pc="268436152" symbol="onStart"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="18" lineNum="37" pc="268436181" symbol="onStop"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="19" lineNum="41" pc="268436186" symbol="getInitialView"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="19" lineNum="42" pc="268436190" symbol="getInitialView"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="20" lineNum="45" pc="268436258" symbol="onProgressBarBackPress"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="20" lineNum="45" pc="268436262" symbol="onProgressBarBackPress"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="46" pc="268436273" symbol="showProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="47" pc="268436277" symbol="showProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="47" pc="268436291" symbol="showProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="48" pc="268436295" symbol="showProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="49" pc="268436305" symbol="showProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="53" pc="268436344" symbol="showProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="59" pc="268436403" symbol="ridProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="60" pc="268436407" symbol="ridProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="60" pc="268436421" symbol="ridProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="61" pc="268436425" symbol="ridProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="62" pc="268436435" symbol="ridProgressBar"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="65" pc="268436468" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="66" pc="268436472" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="67" pc="268436499" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="68" pc="268436512" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="69" pc="268436540" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="70" pc="268436556" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="71" pc="268436603" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="72" pc="268436644" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="74" pc="268436648" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="75" pc="268436660" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="76" pc="268436671" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="77" pc="268436694" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="79" pc="268436698" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="80" pc="268436721" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="81" pc="268436734" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="82" pc="268436762" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="83" pc="268436778" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="84" pc="268436788" symbol="webRequestForCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="87" pc="268436830" symbol="webRequestForCoursesTriger"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="88" pc="268436834" symbol="webRequestForCoursesTriger"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="89" pc="268436834" symbol="webRequestForCoursesTriger"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="99" pc="268436962" symbol="webRequestForCoursesTriger"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="100" pc="268436972" symbol="webRequestForCoursesTriger"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="104" pc="268436997" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="105" pc="268437001" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="106" pc="268437011" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="107" pc="268437037" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="108" pc="268437055" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="109" pc="268437067" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="111" pc="268437071" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="112" pc="268437082" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="114" pc="268437105" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="115" pc="268437124" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="116" pc="268437136" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="118" pc="268437140" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="119" pc="268437151" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="120" pc="268437170" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="121" pc="268437182" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="123" pc="268437186" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="124" pc="268437213" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="125" pc="268437236" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="126" pc="268437248" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="129" pc="268437252" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="130" pc="268437272" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="131" pc="268437295" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="132" pc="268437307" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="135" pc="268437311" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="137" pc="268437327" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="138" pc="268437340" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="139" pc="268437363" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="140" pc="268437375" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="143" pc="268437379" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="144" pc="268437412" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="145" pc="268437435" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="146" pc="268437444" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="147" pc="268437456" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="150" pc="268437460" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="151" pc="268437495" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="152" pc="268437523" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="153" pc="268437539" symbol="onReceiveCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="156" pc="268437612" symbol="getCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="156" pc="268437616" symbol="getCourses"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="162" pc="268437626" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="163" pc="268437630" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="164" pc="268437640" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="165" pc="268437675" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="166" pc="268437703" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="167" pc="268437719" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="168" pc="268437766" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="169" pc="268437794" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="170" pc="268437828" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="171" pc="268437844" symbol="onItemChosen"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="174" pc="268437886" symbol="webRequestForCourseDownload"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="175" pc="268437890" symbol="webRequestForCourseDownload"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="176" pc="268437903" symbol="webRequestForCourseDownload"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="177" pc="268437935" symbol="webRequestForCourseDownload"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="178" pc="268437935" symbol="webRequestForCourseDownload"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="187" pc="268438032" symbol="webRequestForCourseDownload"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="188" pc="268438044" symbol="webRequestForCourseDownload"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="193" pc="268438061" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="194" pc="268438065" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="195" pc="268438077" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="196" pc="268438095" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="197" pc="268438107" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="199" pc="268438111" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="200" pc="268438122" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="201" pc="268438141" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="202" pc="268438153" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="204" pc="268438157" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="205" pc="268438164" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="206" pc="268438187" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="207" pc="268438199" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="210" pc="268438203" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="212" pc="268438216" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="213" pc="268438228" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="215" pc="268438232" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="216" pc="268438260" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="218" pc="268438276" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="219" pc="268438293" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="220" pc="268438298" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="221" pc="268438311" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="222" pc="268438318" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="223" pc="268438330" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="225" pc="268438336" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="226" pc="268438371" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="227" pc="268438403" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="228" pc="268438434" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="229" pc="268438469" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="230" pc="268438479" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="231" pc="268438520" symbol="onDownloadFinished"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="239" pc="268438530" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="240" pc="268438534" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="241" pc="268438544" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="242" pc="268438572" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="243" pc="268438585" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="244" pc="268438598" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="245" pc="268438621" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="247" pc="268438625" symbol="startCourse"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="250" pc="268438661" symbol="onGenericError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="251" pc="268438665" symbol="onGenericError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="252" pc="268438693" symbol="onGenericError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="32" lineNum="255" pc="268438710" symbol="onPersistedContentError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="32" lineNum="256" pc="268438714" symbol="onPersistedContentError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="32" lineNum="257" pc="268438742" symbol="onPersistedContentError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="33" lineNum="260" pc="268438759" symbol="onConnectionError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="33" lineNum="261" pc="268438763" symbol="onConnectionError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="33" lineNum="262" pc="268438791" symbol="onConnectionError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="34" lineNum="264" pc="268438808" symbol="onBLEConnectionError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="34" lineNum="265" pc="268438812" symbol="onBLEConnectionError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="34" lineNum="266" pc="268438835" symbol="onBLEConnectionError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="34" lineNum="267" pc="268438863" symbol="onBLEConnectionError"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="36" lineNum="8" pc="268438880" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="36" lineNum="9" pc="268438884" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="36" lineNum="10" pc="268438902" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="37" lineNum="13" pc="268438926" symbol="onMenu"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="37" lineNum="15" pc="268438930" symbol="onMenu"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="37" lineNum="16" pc="268438948" symbol="onMenu"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="38" lineNum="19" pc="268438952" symbol="onSelect"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="38" lineNum="21" pc="268438956" symbol="onSelect"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="38" lineNum="22" pc="268438974" symbol="onSelect"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="40" lineNum="7" pc="268438978" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="40" lineNum="8" pc="268438982" symbol="initialize"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="41" lineNum="11" pc="268439001" symbol="onMenuItem"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="41" lineNum="12" pc="268439005" symbol="onMenuItem"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="41" lineNum="13" pc="268439033" symbol="onMenuItem"/>
-<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="41" lineNum="14" pc="268439050" symbol="onMenuItem"/>
-<entry filename="Rez" id="48" lineNum="30" pc="268439065" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="34" pc="268439077" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="35" pc="268439261" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="36" pc="268439294" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="37" pc="268439346" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="38" pc="268439545" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="39" pc="268439578" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="40" pc="268439630" symbol="MainLayout"/>
-<entry filename="Rez" id="48" lineNum="43" pc="268439676" symbol="MainLayout"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="3" lineNum="13" pc="268435456" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="3" lineNum="14" pc="268435460" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="3" lineNum="15" pc="268435478" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="19" pc="268435502" symbol="onLayout"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="20" pc="268435506" symbol="onLayout"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="21" pc="268435543" symbol="onLayout"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="4" lineNum="22" pc="268435567" symbol="onLayout"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="5" lineNum="28" pc="268435592" symbol="onShow"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="32" pc="268435597" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="33" pc="268435601" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="34" pc="268435626" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="35" pc="268435651" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="36" pc="268435676" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="37" pc="268435702" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="38" pc="268435728" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="6" lineNum="40" pc="268435754" symbol="onUpdate"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitView.mc" id="7" lineNum="46" pc="268435775" symbol="onHide"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="9" pc="268435780" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="10" pc="268435784" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="11" pc="268435802" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="12" pc="268435819" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="13" pc="268435832" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="14" pc="268435870" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="15" pc="268435894" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenu.mc" id="9" lineNum="16" pc="268435910" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="11" lineNum="8" pc="268435967" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="11" lineNum="9" pc="268435971" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="11" lineNum="10" pc="268435989" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="12" lineNum="13" pc="268436013" symbol="onBack"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="12" lineNum="14" pc="268436017" symbol="onBack"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/MyProgressDelegate.mc" id="12" lineNum="15" pc="268436035" symbol="onBack"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="14" lineNum="19" pc="268436039" symbol="getLabelTextColor"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="14" lineNum="19" pc="268436043" symbol="getLabelTextColor"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="15" lineNum="20" pc="268436053" symbol="getLabelViewContent"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="15" lineNum="20" pc="268436057" symbol="getLabelViewContent"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="21" pc="268436067" symbol="getStatusViewContent"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="16" lineNum="21" pc="268436071" symbol="getStatusViewContent"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="23" pc="268436081" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="24" pc="268436085" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="25" pc="268436103" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="26" pc="268436116" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="27" pc="268436129" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="28" pc="268436165" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="17" lineNum="29" pc="268436175" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="18" lineNum="33" pc="268436185" symbol="onStart"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="18" lineNum="34" pc="268436189" symbol="onStart"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="18" lineNum="35" pc="268436217" symbol="onStart"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="19" lineNum="39" pc="268436246" symbol="onStop"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="20" lineNum="43" pc="268436251" symbol="getInitialView"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="20" lineNum="44" pc="268436255" symbol="getInitialView"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="47" pc="268436323" symbol="onProgressBarBackPress"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="21" lineNum="47" pc="268436327" symbol="onProgressBarBackPress"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="48" pc="268436338" symbol="showProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="49" pc="268436342" symbol="showProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="49" pc="268436356" symbol="showProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="50" pc="268436360" symbol="showProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="51" pc="268436370" symbol="showProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="22" lineNum="55" pc="268436409" symbol="showProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="61" pc="268436468" symbol="ridProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="62" pc="268436472" symbol="ridProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="62" pc="268436486" symbol="ridProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="63" pc="268436490" symbol="ridProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="23" lineNum="64" pc="268436500" symbol="ridProgressBar"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="67" pc="268436533" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="68" pc="268436537" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="69" pc="268436559" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="70" pc="268436586" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="71" pc="268436599" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="72" pc="268436627" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="73" pc="268436643" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="74" pc="268436690" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="75" pc="268436731" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="77" pc="268436735" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="78" pc="268436747" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="79" pc="268436758" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="80" pc="268436781" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="82" pc="268436785" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="83" pc="268436808" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="84" pc="268436821" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="85" pc="268436849" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="86" pc="268436865" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="24" lineNum="87" pc="268436875" symbol="webRequestForCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="90" pc="268436917" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="91" pc="268436921" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="92" pc="268436921" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="102" pc="268437049" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="25" lineNum="103" pc="268437059" symbol="webRequestForCoursesTriger"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="107" pc="268437084" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="108" pc="268437088" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="109" pc="268437098" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="110" pc="268437124" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="111" pc="268437142" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="112" pc="268437154" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="114" pc="268437158" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="115" pc="268437169" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="117" pc="268437192" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="118" pc="268437211" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="119" pc="268437223" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="121" pc="268437227" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="122" pc="268437238" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="123" pc="268437257" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="124" pc="268437269" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="126" pc="268437273" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="127" pc="268437300" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="128" pc="268437323" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="129" pc="268437335" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="132" pc="268437339" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="133" pc="268437359" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="134" pc="268437382" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="135" pc="268437394" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="138" pc="268437398" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="140" pc="268437414" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="141" pc="268437427" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="142" pc="268437450" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="143" pc="268437462" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="146" pc="268437466" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="147" pc="268437499" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="148" pc="268437522" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="149" pc="268437531" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="150" pc="268437543" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="153" pc="268437547" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="154" pc="268437582" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="155" pc="268437610" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="26" lineNum="156" pc="268437626" symbol="onReceiveCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="159" pc="268437699" symbol="getCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="27" lineNum="159" pc="268437703" symbol="getCourses"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="165" pc="268437713" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="166" pc="268437717" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="167" pc="268437727" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="168" pc="268437762" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="169" pc="268437790" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="170" pc="268437806" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="171" pc="268437853" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="172" pc="268437881" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="173" pc="268437915" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="28" lineNum="174" pc="268437931" symbol="onItemChosen"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="177" pc="268437973" symbol="webRequestForCourseDownload"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="178" pc="268437977" symbol="webRequestForCourseDownload"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="179" pc="268437990" symbol="webRequestForCourseDownload"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="180" pc="268438022" symbol="webRequestForCourseDownload"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="181" pc="268438022" symbol="webRequestForCourseDownload"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="190" pc="268438119" symbol="webRequestForCourseDownload"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="29" lineNum="191" pc="268438131" symbol="webRequestForCourseDownload"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="196" pc="268438148" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="197" pc="268438152" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="198" pc="268438164" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="199" pc="268438182" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="200" pc="268438194" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="202" pc="268438198" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="203" pc="268438209" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="204" pc="268438228" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="205" pc="268438240" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="207" pc="268438244" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="208" pc="268438251" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="209" pc="268438274" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="210" pc="268438286" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="213" pc="268438290" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="215" pc="268438303" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="216" pc="268438315" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="218" pc="268438319" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="219" pc="268438347" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="221" pc="268438363" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="222" pc="268438380" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="223" pc="268438385" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="224" pc="268438398" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="225" pc="268438405" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="226" pc="268438417" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="228" pc="268438423" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="229" pc="268438458" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="230" pc="268438490" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="231" pc="268438521" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="232" pc="268438556" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="233" pc="268438566" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="30" lineNum="234" pc="268438607" symbol="onDownloadFinished"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="242" pc="268438617" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="243" pc="268438621" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="244" pc="268438631" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="245" pc="268438659" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="246" pc="268438672" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="247" pc="268438685" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="248" pc="268438708" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="31" lineNum="250" pc="268438712" symbol="startCourse"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="32" lineNum="253" pc="268438748" symbol="onGenericError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="32" lineNum="254" pc="268438752" symbol="onGenericError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="32" lineNum="255" pc="268438780" symbol="onGenericError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="33" lineNum="258" pc="268438797" symbol="onPersistedContentError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="33" lineNum="259" pc="268438801" symbol="onPersistedContentError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="33" lineNum="260" pc="268438829" symbol="onPersistedContentError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="34" lineNum="263" pc="268438846" symbol="onConnectionError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="34" lineNum="264" pc="268438850" symbol="onConnectionError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="34" lineNum="265" pc="268438878" symbol="onConnectionError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="35" lineNum="267" pc="268438895" symbol="onBLEConnectionError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="35" lineNum="268" pc="268438899" symbol="onBLEConnectionError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="35" lineNum="269" pc="268438922" symbol="onBLEConnectionError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitApp.mc" id="35" lineNum="270" pc="268438950" symbol="onBLEConnectionError"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="37" lineNum="8" pc="268438967" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="37" lineNum="9" pc="268438971" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="37" lineNum="10" pc="268438989" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="38" lineNum="13" pc="268439013" symbol="onMenu"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="38" lineNum="15" pc="268439017" symbol="onMenu"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="38" lineNum="16" pc="268439035" symbol="onMenu"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="39" lineNum="19" pc="268439039" symbol="onSelect"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="39" lineNum="21" pc="268439043" symbol="onSelect"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitDelegate.mc" id="39" lineNum="22" pc="268439061" symbol="onSelect"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="41" lineNum="7" pc="268439065" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="41" lineNum="8" pc="268439069" symbol="initialize"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="42" lineNum="11" pc="268439088" symbol="onMenuItem"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="42" lineNum="12" pc="268439092" symbol="onMenuItem"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="42" lineNum="13" pc="268439120" symbol="onMenuItem"/>
+<entry filename="/home/radim/eclipse-workspace-monkeyc/InFit/source/InFitMenuDelegate.mc" id="42" lineNum="14" pc="268439137" symbol="onMenuItem"/>
+<entry filename="Rez" id="49" lineNum="30" pc="268439152" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="34" pc="268439164" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="35" pc="268439348" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="36" pc="268439381" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="37" pc="268439433" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="38" pc="268439632" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="39" pc="268439665" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="40" pc="268439717" symbol="MainLayout"/>
+<entry filename="Rez" id="49" lineNum="43" pc="268439763" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="32" symbol="statusContent"/>
+<entry field="true" id="33" symbol="statusContent"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="40" symbol="progressBarRunning"/>
-<entry id="43" method="true" symbol="onProgressBarBackPress"/>
+<entry field="true" id="41" symbol="progressBarRunning"/>
+<entry id="45" method="true" symbol="onProgressBarBackPress"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="26" symbol="persisted_content_error"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="11" object="true" symbol="MyProgressDelegate"/>
-<entry field="true" id="38" symbol="courses"/>
+<entry field="true" id="39" symbol="courses"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry id="47" method="true" symbol="webRequestForCoursesTriger"/>
-<entry field="true" id="39" symbol="progressBar"/>
+<entry id="49" method="true" symbol="webRequestForCoursesTriger"/>
+<entry field="true" id="40" symbol="progressBar"/>
 <entry field="true" id="30" symbol="menu_label"/>
 <entry field="true" id="27" symbol="start_prompt"/>
-<entry id="59" method="true" symbol="onConnectionError"/>
+<entry id="61" method="true" symbol="onConnectionError"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry field="true" id="51" symbol="courseName"/>
-<entry field="true" id="33" symbol="labelDrawable"/>
+<entry field="true" id="53" symbol="courseName"/>
+<entry field="true" id="34" symbol="labelDrawable"/>
 <entry field="true" id="8389138" symbol="label"/>
 <entry field="true" id="25" symbol="loading_courses"/>
 <entry field="true" id="22" symbol="waiting_for_bt"/>
@@ -248,94 +253,96 @@
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry field="true" id="16" symbol="intToSymb"/>
 <entry id="9" object="true" symbol="InFitView"/>
-<entry field="true" id="49" symbol="symbToInt"/>
-<entry field="true" id="36" symbol="timer"/>
+<entry field="true" id="51" symbol="symbToInt"/>
+<entry field="true" id="37" symbol="timer"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="46" method="true" symbol="webRequestForCourses"/>
-<entry id="57" method="true" symbol="onGenericError"/>
+<entry id="48" method="true" symbol="webRequestForCourses"/>
+<entry id="59" method="true" symbol="onGenericError"/>
 <entry id="8389594" symbol="headers"/>
 <entry field="true" id="21" symbol="app_name"/>
+<entry field="true" id="32" symbol="labelTextColor"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry field="true" id="23" symbol="connection_error"/>
 <entry field="true" id="15" symbol="app"/>
-<entry id="67" symbol="ITEM_6"/>
-<entry id="66" symbol="ITEM_5"/>
-<entry id="65" symbol="ITEM_4"/>
-<entry id="64" symbol="ITEM_3"/>
-<entry id="63" symbol="ITEM_2"/>
-<entry id="62" symbol="ITEM_1"/>
-<entry id="61" symbol="ITEM_0"/>
+<entry id="69" symbol="ITEM_6"/>
+<entry id="68" symbol="ITEM_5"/>
+<entry id="67" symbol="ITEM_4"/>
+<entry id="66" symbol="ITEM_3"/>
+<entry id="65" symbol="ITEM_2"/>
+<entry id="64" symbol="ITEM_1"/>
+<entry id="63" symbol="ITEM_0"/>
 <entry field="true" id="19" symbol="LauncherIcon"/>
-<entry id="44" method="true" symbol="showProgressBar"/>
-<entry id="53" method="true" symbol="webRequestForCourseDownload"/>
+<entry id="46" method="true" symbol="showProgressBar"/>
+<entry id="55" method="true" symbol="webRequestForCourseDownload"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="8388786" method="true" symbol="method"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="34" symbol="statusDrawable"/>
+<entry field="true" id="35" symbol="statusDrawable"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry id="52" method="true" symbol="onItemChosen"/>
-<entry id="58" method="true" symbol="onPersistedContentError"/>
+<entry id="54" method="true" symbol="onItemChosen"/>
+<entry id="60" method="true" symbol="onPersistedContentError"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="48" method="true" symbol="onReceiveCourses"/>
+<entry id="50" method="true" symbol="onReceiveCourses"/>
 <entry id="8389956" method="true" symbol="getCourses"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="55" symbol="courseToStart"/>
+<entry field="true" id="57" symbol="courseToStart"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="35" symbol="status"/>
-<entry id="56" method="true" symbol="startCourse"/>
+<entry field="true" id="36" symbol="status"/>
+<entry id="58" method="true" symbol="startCourse"/>
 <entry id="8389347" symbol="color"/>
-<entry id="41" method="true" symbol="getLabelViewContent"/>
+<entry id="43" method="true" symbol="getLabelViewContent"/>
 <entry id="13" object="true" symbol="InFitDelegate"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
 <entry id="12" object="true" symbol="InFitApp"/>
 <entry id="18" module="true" symbol="Layouts"/>
 <entry id="10" object="true" symbol="InFitMenu"/>
-<entry field="true" id="37" symbol="blockWebRequestsForCourses"/>
+<entry field="true" id="38" symbol="blockWebRequestsForCourses"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="14" object="true" symbol="InFitMenuDelegate"/>
 <entry id="8389844" symbol="responseType"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="50" symbol="fullUrl"/>
+<entry field="true" id="52" symbol="fullUrl"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry field="true" id="24" symbol="downloading"/>
 <entry id="17" module="true" symbol="Menus"/>
 <entry field="true" id="28" symbol="downloaded"/>
-<entry id="45" method="true" symbol="ridProgressBar"/>
+<entry id="47" method="true" symbol="ridProgressBar"/>
 <entry field="true" id="31" symbol="labelContent"/>
-<entry id="42" method="true" symbol="getStatusViewContent"/>
-<entry id="60" method="true" symbol="onBLEConnectionError"/>
-<entry id="54" method="true" symbol="onDownloadFinished"/>
+<entry id="44" method="true" symbol="getStatusViewContent"/>
+<entry id="62" method="true" symbol="onBLEConnectionError"/>
+<entry id="56" method="true" symbol="onDownloadFinished"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="42" method="true" symbol="getLabelTextColor"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435592" name="dc" stackId="1" startPc="268435502"/>
-<entry endPc="268435724" name="dc" stackId="1" startPc="268435597"/>
-<entry endPc="268435915" name="i" stackId="3" startPc="268435843"/>
-<entry endPc="268435915" name="courses" stackId="2" startPc="268435733"/>
-<entry endPc="268435915" name="app" stackId="1" startPc="268435733"/>
-<entry endPc="268436181" name="state" stackId="1" startPc="268436120"/>
-<entry endPc="268436186" name="state" stackId="1" startPc="268436181"/>
-<entry endPc="268436403" name="title" stackId="1" startPc="268436273"/>
-<entry endPc="268437612" name="responseCode" stackId="1" startPc="268436997"/>
-<entry endPc="268437612" name="data" stackId="2" startPc="268436997"/>
-<entry endPc="268437885" name="courseUrl" stackId="2" startPc="268437630"/>
-<entry endPc="268437886" name="item" stackId="1" startPc="268437626"/>
-<entry endPc="268438526" name="courseNow" stackId="4" startPc="268438298"/>
-<entry endPc="268438529" name="iteratorCourses" stackId="3" startPc="268438203"/>
-<entry endPc="268438530" name="responseCode" stackId="1" startPc="268438061"/>
-<entry endPc="268438530" name="data" stackId="2" startPc="268438061"/>
-<entry endPc="268439064" name="app" stackId="2" startPc="268439005"/>
-<entry endPc="268439065" name="item" stackId="1" startPc="268439001"/>
-<entry endPc="268439703" name="rez_cmp_local_bitmap_label" stackId="2" startPc="268439077"/>
-<entry endPc="268439703" name="rez_cmp_local_bitmap_status_fontHeight" stackId="5" startPc="268439077"/>
-<entry endPc="268439703" name="rez_cmp_local_bitmap_label_fontHeight" stackId="3" startPc="268439077"/>
-<entry endPc="268439703" name="rez_cmp_local_bitmap_status" stackId="4" startPc="268439077"/>
-<entry endPc="268439704" name="dc" stackId="1" startPc="268439065"/>
+<entry endPc="268435775" name="dc" stackId="1" startPc="268435597"/>
+<entry endPc="268435966" name="i" stackId="3" startPc="268435894"/>
+<entry endPc="268435966" name="courses" stackId="2" startPc="268435784"/>
+<entry endPc="268435966" name="app" stackId="1" startPc="268435784"/>
+<entry endPc="268436246" name="state" stackId="1" startPc="268436185"/>
+<entry endPc="268436251" name="state" stackId="1" startPc="268436246"/>
+<entry endPc="268436468" name="title" stackId="1" startPc="268436338"/>
+<entry endPc="268437699" name="responseCode" stackId="1" startPc="268437084"/>
+<entry endPc="268437699" name="data" stackId="2" startPc="268437084"/>
+<entry endPc="268437972" name="courseUrl" stackId="2" startPc="268437717"/>
+<entry endPc="268437973" name="item" stackId="1" startPc="268437713"/>
+<entry endPc="268438613" name="courseNow" stackId="4" startPc="268438385"/>
+<entry endPc="268438616" name="iteratorCourses" stackId="3" startPc="268438290"/>
+<entry endPc="268438617" name="responseCode" stackId="1" startPc="268438148"/>
+<entry endPc="268438617" name="data" stackId="2" startPc="268438148"/>
+<entry endPc="268439151" name="app" stackId="2" startPc="268439092"/>
+<entry endPc="268439152" name="item" stackId="1" startPc="268439088"/>
+<entry endPc="268439790" name="rez_cmp_local_bitmap_label" stackId="2" startPc="268439164"/>
+<entry endPc="268439790" name="rez_cmp_local_bitmap_status_fontHeight" stackId="5" startPc="268439164"/>
+<entry endPc="268439790" name="rez_cmp_local_bitmap_label_fontHeight" stackId="3" startPc="268439164"/>
+<entry endPc="268439790" name="rez_cmp_local_bitmap_status" stackId="4" startPc="268439164"/>
+<entry endPc="268439791" name="dc" stackId="1" startPc="268439152"/>
 </localVars>
 <annotations/>
 <functions>
@@ -363,6 +370,9 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onBack" parent="MyProgressDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getLabelTextColor" parent="InFitApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="getLabelViewContent" parent="InFitApp">
@@ -470,7 +480,7 @@
 <dataEntry offset="622" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry offset="661" parentId="Rez" symbolId="Strings" type="module"/>
 <dataEntry offset="780" parentId="globals" symbolId="InFitView" type="class"/>
-<dataEntry offset="899" parentId="globals" symbolId="InFitApp" type="class"/>
-<dataEntry offset="1194" parentId="globals" symbolId="MyProgressDelegate" type="class"/>
+<dataEntry offset="907" parentId="globals" symbolId="InFitApp" type="class"/>
+<dataEntry offset="1218" parentId="globals" symbolId="MyProgressDelegate" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
