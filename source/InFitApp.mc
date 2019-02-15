@@ -222,7 +222,7 @@ class InFitApp extends Application.AppBase {
             while(true){
                 var courseNow = iteratorCourses.next();
                 if(courseNow == null){
-                    onPersistedContentError();
+                    onContentNotFoundError();
                     break;
                 } else {
                     System.println("courseNow: " + courseNow.getName());
@@ -255,8 +255,8 @@ class InFitApp extends Application.AppBase {
         Ui.requestUpdate();
     }
     
-    function onPersistedContentError(){
-        status = Rez.Strings.persisted_content_error;
+    function onContentNotFoundError(){
+        status = Rez.Strings.content_not_found_error;
         Ui.requestUpdate();
     }
     
