@@ -5,7 +5,6 @@
     <string id="waiting_for_bt">Waiting for BT</string>
     <string id="bt_disconnected">BT disconnected</string>
     <string id="connection_error">Connection error</string>
-    <string id="content_not_found_error">Could'n find course in storage...</string>
     <string id="error">Error</string>
     <string id="menu_label">Courses:</string>
     <string id="downloading">Downloading</string>

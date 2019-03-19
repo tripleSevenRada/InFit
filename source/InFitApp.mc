@@ -193,8 +193,13 @@ class InFitApp extends Application.AppBase {
         }
     }
     
+    var courseToStart = null;
+    
     function onDownloadFinished(responseCode, data){
+    	
     	ridProgressBar();
+    	courseToStart = null;
+    	
         if (responseCode == Comm.BLE_CONNECTION_UNAVAILABLE) {
             onBLEConnectionError();
             return;
@@ -222,7 +227,6 @@ class InFitApp extends Application.AppBase {
             while(true){
                 var courseNow = iteratorCourses.next();
                 if(courseNow == null){
-                    onContentNotFoundError();
                     break;
                 } else {
                     System.println("courseNow: " + courseNow.getName());
@@ -235,31 +239,34 @@ class InFitApp extends Application.AppBase {
                     }
                 }
             }
+            if(courseToStart == null){
+                timer.start(method(:onCourseNotFound), 1000, false);
+            }
         }
     }
 
-    var courseToStart = null;
     function startCourse(){
         blockWebRequestsForCourses = false;
         status = Rez.Strings.start_prompt;
-        Ui.requestUpdate;
+        Ui.requestUpdate();
         if (courseToStart == null) {
             System.println("courseToStart == null");
             return;
         }
         System.exitTo(courseToStart.toIntent());
     }
+    
+    function onCourseNotFound(){
+        blockWebRequestsForCourses = false;
+        status = Rez.Strings.start_prompt;
+        Ui.requestUpdate();
+    }
 
     function onGenericError(){
         status = Rez.Strings.error;
         Ui.requestUpdate();
     }
-    
-    function onContentNotFoundError(){
-        status = Rez.Strings.content_not_found_error;
-        Ui.requestUpdate();
-    }
-    
+
     function onConnectionError(){
         status = Rez.Strings.connection_error;
         Ui.requestUpdate();
