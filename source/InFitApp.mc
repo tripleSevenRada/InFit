@@ -90,7 +90,7 @@ class InFitApp extends Application.AppBase {
     function webRequestForCoursesTriger(){
         try{
             Comm.makeWebRequest(
-            "http://localhost:22333/outfit-dir.json",
+            "http://127.0.0.1:22333/outfit-dir.json",
             null,
             {       :method => Comm.HTTP_REQUEST_METHOD_GET,
                     :headers => {"Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON},
@@ -113,7 +113,6 @@ class InFitApp extends Application.AppBase {
         }
         if(responseCode == -1001){
             System.println("responseCode == -1001 - https device requirements");
-            //TODO https device requirements on a real device, maybe ask to switch off
             label = responseCode.toString();
             onConnectionError();
             return;
@@ -170,7 +169,7 @@ class InFitApp extends Application.AppBase {
         showProgressBar(Ui.loadResource(Rez.Strings.downloading));
         var courseUrl = courses[symbToInt[item]]["url"];
         courseName = courses[symbToInt[item]]["name"];
-        fullUrl = "http://localhost:22333/outfit-data" + courseUrl;
+        fullUrl = "http://127.0.0.1:22333/outfit-data" + courseUrl;
         timer.start(method(:webRequestForCourseDownload), 1000, false);
     }
     
